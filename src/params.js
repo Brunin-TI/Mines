@@ -5,7 +5,7 @@ const params = {
     borderSize: 5,
     fontSize: 15,
     headerRatio: 0.15, // Proporção do painel superior na tela
-    difficultlevel: 0.1,
+    difficultLevel: 0.1,
     getColumnsAmount() {
         const width = Dimensions.get('window').width
         return Math.floor(width / this.blockSize)
